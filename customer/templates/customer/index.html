@@ -1,0 +1,21 @@
+{% extends 'customer/base.html' %}
+
+{% block content %}
+<div id = "one" class = "container">
+    <div class = "row">
+        <div class = "col-sm-6">
+            <div class="pt-5">
+            </div>
+            <h1>Django Project</h1>
+            <p class = "big-text">Food Delivery Django Project</p>
+            <p>Get Food items at your home anytime, anywhere</p>
+            <a class = "btn btn-first" href = "{% url 'order' %}">Place An Order!</a>
+            <a class = "btn btn-second" href = "#">Get Help!</a>
+        </div>
+        <div class = "col-sm-6">
+            {% load static %}
+            <img src = "{% static 'images/logo.png' %}" class = "img responsive">
+        </div>
+    </div>
+</div>
+{% endblock content %}

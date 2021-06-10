@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#one{
+    padding-top: 50px;
+}
+
+.header{
+    height:100vh;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.icon-bar
+{
+    background: darkorange;
+}
+
+li a{
+    color: #333;
+}
+
+.big-text
+{
+    font-size:52px;
+    margin: 20px 0;
+    color: darkorange
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: darkorange;
+    color: #fff
+}
+
+a.btn-second{
+    background-color: transparent;
+    color: #333;
+    border: 1px solid darkorange;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
